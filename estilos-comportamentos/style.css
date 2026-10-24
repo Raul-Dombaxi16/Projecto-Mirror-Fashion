@@ -78,10 +78,10 @@ img {
 }
 
 #sobre .container_centro figure {
-    width: 50%;
+    width: 70%;
     max-width: 700px;
     padding: var(--espacamento_grande);
-    padding:20px;
+    padding:18px;
     background: #F2EDED;
 }
 
@@ -101,7 +101,7 @@ img {
     line-height: 1.5;
 }
 
-/* História da escola */
+/* História centro */
 #sobre .historia {
     margin: 2px 0 12px;
     padding: 8px 16px;
@@ -200,7 +200,7 @@ img[alt="logo-rodapé"]{
         height: 55px;
     }
     #sobre .container_centro {
-        padding: 8px;
+        padding: 14px;
     }
     #sobre .container_centro figure {
         padding: 6px;
@@ -238,12 +238,21 @@ img[alt="logo-rodapé"]{
     #sobre .container_centro figure {
         padding: 8px;
     }
+    #sobre .container_centro figure img{
+        padding: 14px;
+    }
     #sobre .cont-familia-pelho {
         float: none;
         display: block;
         max-width: 100%;
         margin: 10px auto;
         padding: 8px;
+    }
+    #sobre .cont-familia-pelho img {
+        display: block;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 15px;
     }
     #sobre .diferenciais {
         padding: 14px;
