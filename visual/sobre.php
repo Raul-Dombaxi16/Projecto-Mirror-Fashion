@@ -4,8 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../estilos-comportamentos/style.css">
+    <meta name="description" content="Sua loja da moda. Comércio electrônico vendas de textis">
+    <meta property="og:type" content="website">
+    <meta property="og:descrition" content="Seu comércio electrônico">
+    <meta property="og:image" content="ferramentas/mirrorfashion/img/destaque-home.png">
+
     <title>Mirror Fashion</title>
-    <meta name="description" content="Comércio electrônico vendas de textis">
+    
 </head>
 <body id="sobre">
   <header class="cabecalho">  
@@ -80,8 +85,8 @@
         Mais de um milhão de funcionários em todo o mundo
       </li>
       </ul>
-    </section>
-
+    </section>´
+    
     <section class="btn-container">
       <button>Compre já em nossa loja</button>
 
