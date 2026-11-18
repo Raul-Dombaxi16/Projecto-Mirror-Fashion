@@ -23,9 +23,9 @@ img {
 /* Página sobre */
 #sobre {
     width: 100%;
-    max-width: 1600px;
+    max-width: min(350px,100%);
     min-height: 100vh;
-    margin: 0 auto;
+    margin: 0h auto;
     overflow-wrap: break-word;
 }
 
@@ -394,4 +394,26 @@ img[alt="logo-rodapé"]{
         padding-left: 48px;
         padding-right: 48px;
     }
+}
+/* 
+=================================
+          Home page
+================================= */
+/* cabecalho compartilhado */
+
+#Home {
+    width: 100%;
+    background: #3c6cb4;
+    max-width: 1600px;
+    min-height: 100vh;
+    margin: 0 auto;
+    overflow-wrap: break-word;
+}
+
+#Home header{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
 }
