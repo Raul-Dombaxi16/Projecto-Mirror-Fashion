@@ -7,7 +7,7 @@
     <meta property="og:type" content="website">
     <meta property="og:descrition" content="Seu comércio electrônico">
     <meta property="og:image" content="ferramentas/mirrorfashion/img/destaque-home.png">
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="../assets/style.css">
 
     <title>Mirror Fashion</title>
     
