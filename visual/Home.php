@@ -13,9 +13,9 @@
 
     <title>Mirror Fashion | Home</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
     <meta property="og:type" content="website">
@@ -30,7 +30,7 @@
 
 <main id="home">
 
-    <div class="home-container">
+    <section class="home-container">
 
         <!-- CABEÇALHO -->
         <header class="home-header">
@@ -55,7 +55,7 @@
                     <a href="#">Sua Conta</a>
                     <a href="#">Lista de Desejos</a>
                     <a href="#">Cartão Fidelidade</a>
-                    <a href="#">Sobre</a>
+                    <a href="sobre.php">Sobre</a>
                     <a href="#">Ajuda</a>
 
                 </nav>
@@ -79,7 +79,7 @@
                 <!-- MENU LATERAL -->
                 <aside class="home-sidebar">
 
-                    <form class="home-search" action="#" role="search">
+                    <form class="home-search" action="https://google.com" role="search">
 
                         <label for="home-search-input">Busca</label>
 
@@ -115,30 +115,21 @@
 
                     </nav>
 
-                </aside>
+.                </aside>
 
 
                 <!-- HERO -->
-                <section class="home-hero-container">
+                <section class="home-hero-container" overflow:hidden;>
 
-                    <div class="home-hero">
+                    <div class="home-hero" >
 
                         <img
-                            src="https://images.unsplash.com/photo-1539101404468-4d7e3f6b1b4a?auto=format&fit=crop&w=1400&q=85"
+                            src="../ferramentas/mirrorfashion/img/destaque-home.png"
                             alt="Modelo com visual moderno numa cidade à noite"
+                             
                         >
 
-                        <div class="home-hero-copy">
-
-                            <span>Nova coleção</span>
-
-                            <h1>
-                                BIG<br>
-                                CITY<br>
-                                NIGHTS
-                            </h1>
-
-                        </div>
+                        
 
                     </div>
 
@@ -189,7 +180,7 @@
                             <article class="home-product">
 
                                 <img
-                                    src="https://images.unsplash.com/photo-1548624149-f3f3b5f5c2a8?auto=format&fit=crop&w=500&q=80"
+                                    src="../ferramentas/mirrorfashion/img/produtos/foto1-azul.png"
                                     alt="Casaco de moda"
                                 >
 
@@ -341,7 +332,7 @@
                             <article class="home-product">
 
                                 <img
-                                    src="https://images.unsplash.com/photo-1548624149-f3f3b5f5c2a8?auto=format&fit=crop&w=500&q=80"
+                                    src="../ferramentas/mirrorfashion/img/produtos/miniatura3.png"
                                     alt="Casaco feminino"
                                 >
 
@@ -379,28 +370,40 @@
             <a class="home-footer-logo" href="#">
 
                 <span class="home-logo-name">MIRЯOR</span>
-                <span class="home-logo-subtitle">F A S H I O N</span>
+                <span class="home-logo-subtitle">F A S H I O N</span><br>
+
+                <p style="font-size:clamp(0.5rem,3vw,14%);">
+                <span id="copyright"></span>
+                 Mirror Fashion. Todos os direitos reservados.
+            </p>
 
             </a>
 
-            <p>
-                © 2026 Mirror Fashion. Todos os direitos reservados.
-            </p>
+            
 
             <nav class="home-social" aria-label="Redes sociais">
 
-                <a href="#" aria-label="Facebook">f</a>
-                <a href="#" aria-label="Twitter">t</a>
-                <a href="#" aria-label="Instagram">◎</a>
+                <a href="#" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#" aria-label="Twitter">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
 
             </nav>
 
         </footer>
 
 
-    </div>
+    </section>
 
 </main>
-
+ <script>
+    let p=document.querySelector("#copyright");
+    p.textContent= new Date().getFullYear()
+ </script>
 </body>
 </html>
